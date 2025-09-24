@@ -4,7 +4,7 @@ let greet () {
   console.log ("привет мир ")
 }
 
-greet ();
+function greet ();
 
 // 2 tapsyrma
 
@@ -21,8 +21,13 @@ sayHello ("Didar")
 
  //3 Tapsyrma
 
+function sum(a, b) {
+  return a + b;
+}
 let result = sum(10, 15);
 console.log(result); 
+
+
 
 //4tapsyrma
 
@@ -77,6 +82,7 @@ function num (a,b) {
   return (a + b)
 }
 console.log(num(4,5))
+funcition sum = (a, b) => a + b;
 
 
 // қосымша тапсырма 
