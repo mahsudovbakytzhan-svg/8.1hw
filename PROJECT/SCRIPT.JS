@@ -82,7 +82,7 @@ function num (a,b) {
   return (a + b)
 }
 console.log(num(4,5))
-funcition sum = (a, b) => a + b;
+const sum = (a, b) => a + b;
 
 
 // қосымша тапсырма 
