@@ -1,10 +1,10 @@
 // 1 tapsyrma
 
-let greet = function(name){
-  console.log ("привет мир "+ name)
+let greet () {
+  console.log ("привет мир ")
 }
 
-greet ("Привет");
+greet ();
 
 // 2 tapsyrma
 
@@ -17,23 +17,12 @@ sayHello ("Dana")
 sayHello ("Dancho")
 sayHello ("Didar")
 
-let Hello =(name)=>{
-   console.log("hi,"+ name + "?")
-}
- Hello("15")
+
 
  //3 Tapsyrma
- const sum = (num1, num2)=>{
-  console.log(num1 + num2)
- }
-sum(5,7)
-sum(6,8)
 
-const nun = (sun1,sun2)=>{
-  console.log(sun1*sun2)
-}
-nun(4,5)
-nun(4,9)
+let result = sum(10, 15);
+console.log(result); 
 
 //4tapsyrma
 
@@ -84,10 +73,10 @@ console.log(isEven(7));
 
 //8 tapsyrma 
 
-function num (number) {
-  return (number + number)
+function num (a,b) {
+  return (a + b)
 }
-console.log(num(4))
+console.log(num(4,5))
 
 
 // қосымша тапсырма 
