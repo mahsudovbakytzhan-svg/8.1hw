@@ -1,10 +1,8 @@
 // 1 tapsyrma
 
-let greet () {
+function greet () {
   console.log ("привет мир ")
 }
-
-function greet ();
 
 // 2 tapsyrma
 
@@ -82,7 +80,7 @@ function num (a,b) {
   return (a + b)
 }
 console.log(num(4,5))
-const sum = (a, b) => a + b;
+const sum1 = (a, b) => a + b;
 
 
 // қосымша тапсырма 
